@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RelativeLayout_Zevia_XIIRPL</string>
     <string name="text_hello">hello World</string>
-    <string name="title"><font color='#000'>Lets find</font>\n<font color='#0F40A5'>food</font> near you</string>
+    <string name="title"><font>Lets find</font>\n<font>food</font> near you</string>
 
     <string-array name="day_array">
         <item>Monday</item>

@@ -19,7 +19,10 @@
         android:layout_below="@id/toolbar_title"
         android:layout_margin="15dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:startIconDrawable="@drawable/ic_baseline_search_24">
+        app:startIconDrawable="@drawable/ic_baseline_search_24"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_baseline_filter_alt_24"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -149,5 +152,14 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:layout_margin="20sp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_margin="20sp"
+            />
     </LinearLayout>
+
+
 </RelativeLayout>
